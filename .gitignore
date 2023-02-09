@@ -1,0 +1,10 @@
+*.zip
+*.mp4
+Actor*/
+3DGAN-Inversion/
+frames/
+*.mat
+Deep3DFaceRecon_pytorch/BFM
+Deep3DFaceRecon_pytorch/checkpoints/pretrained/epoch_20.pth
+
+Deep3DFaceRecon_pytorch/checkpoints/pretrained/results
