@@ -16,3 +16,11 @@ cd ..    # ./Deep3DFaceRecon_pytorch
 git clone https://github.com/deepinsight/insightface.git
 cp -r ./insightface/recognition/arcface_torch ./models/
 ```
+
+
+### Input Videos
+'''
+mkdir -p frames
+ffmpeg -i test.mp4  frames/frame_%04d.png   # Extract Frames from Video
+python smooth_cropping.py --in_root frames
+'''
